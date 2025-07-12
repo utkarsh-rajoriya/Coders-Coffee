@@ -239,7 +239,7 @@ const Main = () => {
         className="container my-15 rounded-xl grid grid-cols-1 md:grid-cols-3"
         style={coffeeCover}
         whileInView={{
-          x: [40, 0],
+          scale : [0 , 1],
           opacity: [0, 1],
         }}
         transition={{
@@ -266,7 +266,8 @@ const Main = () => {
               opacity: [0, 1],
             }}
             transition={{
-              delay: 0.6,
+              delay: 0.8,
+              duration : 0.6,
               type: "spring",
               damping: 15,
               stiffness: 100,
