@@ -174,7 +174,7 @@ const setNav = () =>{
           className="hidden lg:block relative "
           animate={{
             opacity: [0, 1],
-            x: [100, 0],
+            x: [40, 0],
           }}
           transition={{
             delay: 1.2,
